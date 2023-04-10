@@ -1,20 +1,17 @@
 {
   "license": "MIT",
   "version": "2.0.0",
-  "author": "babangsund",
+  "author": "JavaScriptJohn",
   "main": "dist/index.js",
   "name": "cypress-keycloak",
   "module": "dist/index.esm.js",
   "description": "Cypress commands for Keycloak",
-  "repository": "git://github.com/babangsund/cypress-keycloak.git",
+  "repository": "git://github.com/JavaScriptJohn/cypress-keycloak.git",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "watch": "NODE_ENV=development rollup -c -w",
     "prettier": "prettier --write src/**",
     "lint": "eslint src/"
-  },
-  "peerDependencies": {
-    "cypress": "^6.5.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0"
   },
   "types": "src/index.d.ts",
   "devDependencies": {
